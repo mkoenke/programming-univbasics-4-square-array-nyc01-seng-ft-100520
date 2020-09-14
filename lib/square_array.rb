@@ -8,6 +8,6 @@
 
 def square_array(array)
   new_array = []
-  array.length.each do |index|
+  array.length.times do |index|
     new_array.push(array[index]**2)
   end 
